@@ -206,14 +206,6 @@
   margin: 20px auto 0;
 }
 
-.u-section-2 .u-btn-1 {
-  border-style: none none solid;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin: 20px auto 0;
-  padding: 0;
-}
-
 .u-section-2 .u-list-item-2 {
   background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.2);
@@ -239,14 +231,6 @@
   margin: 20px auto 0;
 }
 
-.u-section-2 .u-btn-2 {
-  border-style: none none solid;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin: 20px auto 0;
-  padding: 0;
-}
-
 .u-section-2 .u-list-item-3 {
   background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.2);
@@ -260,7 +244,6 @@
   height: 88px;
   width: 88px;
   background-image: none;
-  color: rgb(255, 255, 255) !important;
   margin: 0 auto;
   padding: 22px;
 }
@@ -270,14 +253,6 @@
   text-transform: uppercase;
   font-weight: 500;
   margin: 20px auto 0;
-}
-
-.u-section-2 .u-btn-3 {
-  border-style: none none solid;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin: 20px auto 0;
-  padding: 0;
 }
 
 .u-section-2 .u-list-item-4 {
@@ -305,14 +280,6 @@
   margin: 20px auto 0;
 }
 
-.u-section-2 .u-btn-4 {
-  border-style: none none solid;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin: 20px auto 0;
-  padding: 0;
-}
-
 @media (max-width: 1199px) {
    .u-section-2 {
     min-height: 520px;
@@ -329,6 +296,10 @@
 
   .u-section-2 .u-repeater-1 {
     min-height: 344px;
+  }
+
+  .u-section-2 .u-icon-3 {
+    color: rgb(255, 255, 255) !important;
   }
 }
 
@@ -511,7 +482,11 @@
 
 @media (max-width: 575px) {
    .u-section-3 {
-    min-height: 859px;
+    min-height: 767px;
+  }
+
+  .u-section-3 .u-shape-1 {
+    margin-top: 1px;
   }
 
   .u-section-3 .u-image-1 {
@@ -521,7 +496,9 @@
 
   .u-section-3 .u-group-1 {
     width: 340px;
-    margin-top: 82px;
+    min-height: 467px;
+    margin-top: -41px;
+    margin-bottom: 1px;
   }
 
   .u-section-3 .u-container-layout-1 {
@@ -551,7 +528,7 @@
 
 .u-section-4 .u-image-1 {
   min-height: 757px;
-  background-image: url("images/99616268-01.jpeg");
+  background-image: url("images/reiki-treatment_886x576.jpg");
   background-position: 50% 50%;
 }
 
@@ -716,7 +693,7 @@
 .u-section-5 .u-image-1 {
   width: 486px;
   height: 486px;
-  background-image: url("images/b36d208167bb1bd01efcf56596471bb0a643936ae6a97f5a1650688d26eeffacac6f25c725f8addb5f4dace259fd965a673d9eda7a77652a51afca_1280.jpg");
+  background-image: url("images/meditating-3478898_1280.jpg");
   background-position: 50% 50%;
   margin: 47px auto 0;
 }
@@ -894,22 +871,12 @@
   margin-bottom: 50px;
 }
 
-.u-section-6 .u-image-1 {
-  background-image: url("images/b1023ec6cc3624ef3d73c104a9a543c441914105e62c0319bbeb255d169a68d5710c195b54cd757dbe7ea698accb88198b5b90ab86332060b445dd_1280.jpg");
-  min-height: 657px;
-  background-position: 50% 50%;
-}
-
-.u-section-6 .u-container-layout-1 {
-  padding: 30px;
-}
-
-.u-section-6 .u-layout-cell-2 {
+.u-section-6 .u-layout-cell-1 {
   background-image: none;
   min-height: 657px;
 }
 
-.u-section-6 .u-container-layout-2 {
+.u-section-6 .u-container-layout-1 {
   padding: 30px;
 }
 
@@ -967,11 +934,7 @@
     min-height: 641px;
   }
 
-  .u-section-6 .u-image-1 {
-    min-height: 542px;
-  }
-
-  .u-section-6 .u-layout-cell-2 {
+  .u-section-6 .u-layout-cell-1 {
     min-height: 542px;
   }
 
@@ -990,11 +953,7 @@
     min-height: 514px;
   }
 
-  .u-section-6 .u-image-1 {
-    min-height: 415px;
-  }
-
-  .u-section-6 .u-layout-cell-2 {
+  .u-section-6 .u-layout-cell-1 {
     min-height: 100px;
   }
 
@@ -1008,16 +967,7 @@
     min-height: 866px;
   }
 
-  .u-section-6 .u-image-1 {
-    min-height: 667px;
-  }
-
   .u-section-6 .u-container-layout-1 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .u-section-6 .u-container-layout-2 {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -1026,10 +976,6 @@
 @media (max-width: 575px) {
   .u-section-6 .u-sheet-1 {
     min-height: 619px;
-  }
-
-  .u-section-6 .u-image-1 {
-    min-height: 420px;
   }
 
   .u-section-6 .u-text-1 {
